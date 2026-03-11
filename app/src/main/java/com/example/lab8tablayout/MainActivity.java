@@ -28,12 +28,15 @@ public class MainActivity extends AppCompatActivity {
                 switch (position) {
                     case 0:
                         tab.setText("HOME");
+                        tab.setIcon(R.drawable.ic_home);
                         break;
                     case 1:
                         tab.setText("FAVORITE");
+                        tab.setIcon(R.drawable.ic_favorite);
                         break;
                     case 2:
                         tab.setText("HICTORY");
+                        tab.setIcon(R.drawable.ic_history);
                         break;
                 }
             }
